@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    ---hdclor:#D2001A;
+    ---btn:#0F3460;
+    ---hdft:'Noto Sans Mono', monospace;
+    ---phd: 'Noto Sans Mono', monospace;
+    ---bhd: 'Lato', sans-serif;
+
+
+}
+.px{
+    padding:0px 100px;
+}
+.df{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+aside{
+    margin: 0px auto;
+    width: 70%;
+    height: 100px;
+    display: flex;
+}
+aside a{
+    color: black;
+    font-family: var(---hdft);
+}
+aside li {
+    margin: 0px 20px;
+}
+#brand img{
+    width: 113px;
+    height: 55px;
+    display: block;
+}
+.btn1{
+    color: #D2001A;
+    background-color: white;
+    border: 2px solid var(red);
+    padding: 5px 10px;
+    border-radius:5px; 
+    border: 2px solid var(---hdclor);
+}
+.btn1:hover{
+    color: white;
+    background-color: #D2001A;
+    border: 1px solid #D2001A;
+    padding: 5px 10px;
+}
+.home2{
+    color: #D2001A;
+}
+.fl:hover{
+    color: red;
+}
+.firstimg{
+    height: 80vh;
+    width: 100%; 
+    background-image: url(../image/aptech-it.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-name:firstbg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+/* firstimg animation start */
+@keyframes firstbg{
+    from{
+        background-image: url(../image/aptech-it.jpeg);
+    }
+    to{
+        background-image: url(../image/aptech-graduation.jpeg);
+    }
+}
+/* firstimg animation end */
+
+.firstimg h1{
+    font-family: var(---bhd);
+    color: white;
+    font-weight: 900;
+    text-align: center;
+}
+
+.container1{
+    width: 75%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 20px;
+    margin: 0px auto;
+}
+.box{
+    /* margin: 20px 10px; */
+    width: 32%;
+    height: 300px;
+    border: 1px solid wheat;
+}
+.box h2{
+    padding-top: 30px;
+    font-family: var(---hdft);
+    font-size: 1em;
+}
+.box p{
+    padding-top: 20px;
+    font-family: var(---pft);
+    font-size: 1em;
+}
+.second-btn{
+    display: flex;
+    justify-content: center;
+}
+.btn2{
+    background-color:var(---hdclor);
+    padding: 5px 20px;
+    color: white;
+}
+.container2{
+    margin-top: 20px;
+    height: 390px;
+    width: 80%;
+    padding-top: 30px;
+    display: flex;
+    background-color: #0F3460;
+    margin: 0px auto;
+}
+.bb{
+    height: 400px;
+    width: 45%;
+    margin: 0 auto;
+}
+.bb h2{
+    color: white;
+    font-family: var(---hdft);
+    padding-top: 70px;
+}
+.bb p{
+    padding-top: 20px;
+    color: white;
+    font-family: var(---pft);
+}
+.bb3{
+    margin: 10px;
+    background-color: darkgoldenrod;
+    padding: 5px 20px;
+    color: white;
+}
+
+/* container5-styling start */
+
+.container5{
+    width: 75%;
+    height: 600px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.ib1{
+    width: 31%;
+    height: 600px;
+    background-image: url(../image/laptop-aptech.jpeg);
+    background-size: cover;
+}
+.ib1 p{
+    font-family: var(---bhd);
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+}
+.ib2{
+    width: 31%;
+    height: 600px;
+    background-image: url(../image/code-img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ib2 p{
+    font-family: var(---bhd);
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+}
+.ib3{
+    width: 31%;
+    height: 600px;
+    background-image: url(../image/laptop-pen.jpeg);
+    background-size: contain;
+}
+.ib3 p{
+    font-family: var(---bhd);
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+}
+/* container5-styling end */
+.bb4{
+    padding: 5px 20px;
+    margin: 20px;
+    background-color: #D2001A;
+    color: white;
+    
+}
+.container6{
+    padding-top: 80px;
+    width: auto;
+    height: 300px;
+    background-color: var(---btn);
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.bbt1{
+    width: 99%;
+    height: fit-content;
+    display: flex;
+}
+.bbt{
+    width: 32%;
+    height: 200px;
+    background-color: black;
+    margin: 0px auto;
+}
+article{
+    width: 40%;
+    height: 100px;
+    margin: 0px auto;
+    background-image: url(../image/aptech-colabo.jpeg);
+    background-size: cover;
+}
+.ibrahim{
+    width: 60%;
+    height: 200px;
+    margin: 0px auto;
+    display: flex;
+}
+.israel{
+    width: 50%;
+    height: 200px;
+    background-color: green;
+}
+.fendi{
+    width: 100%;
+    height: 50px;
+}
+footer{
+    margin-top: 3%;
+    width: auto;
+    height:400px;
+    background-color: var(---btn);
+}
+.container8{
+    width: 100%;
+    display: flex;
+    height: fit-content;
+    justify-content: space-around;
+}
+.bb8{
+    padding-top: 3%;
+    height: 250px;
+    width: 21%;
+    color: white;
+    margin: 0px auto;
+}
+.bb8 ul{
+    display: flex;
+}
+
